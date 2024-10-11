@@ -23,7 +23,7 @@ const main = async function () {
     // Docs: https://docs.story.foundation/docs/ipa-metadata-standard
     const ipMetadata: IpMetadata = client.ipAsset.generateIpMetadata({
         title: 'My IP Asset',
-        description: 'Test IP asset by ZunXBT',
+        description: 'Test IP asset macfly',
         watermarkImg: 'https://picsum.photos/200',
         attributes: [
             {
@@ -37,7 +37,7 @@ const main = async function () {
     //
     // Docs: https://eips.ethereum.org/EIPS/eip-721
     const nftMetadata = {
-        name: 'ZunXBT',
+        name: 'mac',
         description: 'This is a test NFT on Iliad',
         image: 'https://picsum.photos/200',
     }
