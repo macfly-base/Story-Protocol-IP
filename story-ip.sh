@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Display the logo
-curl -s https://raw.githubusercontent.com/zunxbt/logo/main/logo.sh | bash
+curl -s https://raw.githubusercontent.com/macly-base/logo/main/logo.sh | bash
 sleep 3
 
 # Function to display messages in blue
@@ -22,7 +22,7 @@ fi
 
 # Install npm using external script
 show "Installing npm..."
-source <(wget -qO- https://raw.githubusercontent.com/zunxbt/installation/main/node.sh) || {
+source <(wget -qO- https://raw.githubusercontent.com/macly-base/installation/main/node.sh) || {
     echo "Npm installation failed."
     exit 1
 }
@@ -38,7 +38,7 @@ fi
 
 # Clone the Story-Protocol repository
 show "Cloning Story-Protocol repository..."
-git clone https://github.com/zunxbt/Story-Protocol.git && cd Story-Protocol || {
+git clone https://github.com/macly-base/Story-Protocol.git && cd Story-Protocol || {
     echo "Failed to clone the repository."
     exit 1
 }
